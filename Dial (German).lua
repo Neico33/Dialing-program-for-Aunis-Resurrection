@@ -14,6 +14,20 @@ v12 = 5
 v13 = 30
 v16 = "dev"
 
+a1 = "Eingehendes Wurmloch"
+a2 = "Chevron wurde durch DHD aktiviert"
+a3 = "Gate ist geschlossen"
+a4 = "Computer wird in "
+a5 = " Sekunden neugestartet"
+a6 = "Gate schließt sich in "
+a7 = " Sekunden"
+a8 = "Ankommende/Ausgehende Materie"
+a9 = "Bitte Chevron eingeben (z.B.: 1,2,3,4,5,6,7,8,9):"
+a10 = "Viel Spaß beim Programmieren."
+a11 = "Aktiviere "
+
+f1 = "Fehler: Stargate konnte nicht geöffnet werden"
+f2 = "Fehler: GateTyp nicht erkannt"
 
 
 function Start()
@@ -32,7 +46,7 @@ function Incoming()
   e1 = e.listen("stargate_incoming_wormhole", function()
     e.cancel(e5)
     os.execute("/bin/clear.lua")
-    print("Eingehendes Wurmloch")
+    print(a1)
     v9 = s.getIrisState()
     if v9 == "OPENED" then
       s.toggleIris()
@@ -69,7 +83,7 @@ function Dhd()
   e3 = e.listen("stargate_dhd_chevron_engaged", function()
     os.execute("/bin/clear.lua")
     print("")
-    print("Chevron wurde durch DHD aktiviert")
+    print(a2)
     os.sleep(5)
     Reboot()
   end)
@@ -77,9 +91,9 @@ end
 
 function Close()
   e4 = e.listen("stargate_wormhole_closed_fully", function()
-    print("Gate ist geschlossen")
+    print(a3)
     while v12 > 0 do
-      print("Computer wird in "..v12.." Sekunden neugestartet")
+      print(a4..v12..a5)
       os.sleep(1)
       v12 = v12 - 1
     end
@@ -91,7 +105,7 @@ function Open()
   e5 = e.listen("stargate_wormhole_stabilized", function()
     v14 = v13 / 5 
     while v13 > 0 do
-      print("Gate schließt sich in "..v13.." Sekunden")
+      print(a6..v13..a7)
       v13 = v13 - v14
       os.sleep(v14)
     end
@@ -101,17 +115,15 @@ end
 
 function Failed()
   e6 = e.listen("stargate_failed", function()
-    print("Fehler: Stargate konnte nicht geöffnet werden")
+    print(f1)
     os.sleep(2)
     Reboot()
   end)
 end
 
 function Matter()
-  e6 = e.listen("stargate_traveler", function(_, _,v15, v16, _)
-    if v15 == false then
-      print("Ankommende Materie")
-    end
+  e6 = e.listen("stargate_traveler", function()
+      print(a8)
   end)
 end
 
@@ -126,7 +138,7 @@ function Type()
       if v8 == "UNIVERSE" then
         Write(t4)
       else
-        print("Fehler: GateTyp nicht erkannt")
+        print(f2)
       end
     end
   end
@@ -136,10 +148,10 @@ function Write(t2)
   for v3,v4 in ipairs(t2) do
     print(v3,v4)
   end
-  print("Bitte Chevron eingeben (z.B.: 1,2,3,4,5,6,7,8,9):")
+  print(a9)
   v5 = io.read()
   if v5 == v16 then
-    print("Viel Spaß beim Programmieren.")
+    print(a10)
   else
     for v6 in string.gmatch(v5,"([^"..v7.."]+)") do
       v6 = tonumber(v6)
@@ -151,7 +163,7 @@ end
 
 function Dial(t1)
   for v1,v2 in ipairs(t1) do
-    print("Aktiviere "..v2.." ...")
+    print(a11..v2.." ...")
     s.engageSymbol(v2)
     e.pull("stargate_spin_chevron_engaged")
     os.sleep(0.5)
