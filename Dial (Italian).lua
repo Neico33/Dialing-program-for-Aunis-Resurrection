@@ -23,7 +23,7 @@ a6 = "Il cancello si chiuderà tra "
 a7 = " secondi"
 a8 = "Materia in entrata/uscita"
 a9 = "Si prega di inserire chevron (ad esempio: 1,2,3,4,5,6,7,8,9):"
-a10 = "Divertiti a programmare".
+a10 = "Divertiti a programmare"
 a11 = "Attivare "
 
 f1 = "Errore: lo stargate non può essere aperto"
