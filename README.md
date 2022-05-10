@@ -1,2 +1,16 @@
 # Dialing-program-for-Aunis-Resurrection
-This repository contains a more or less simple dialing program for Aunis: Resurrection
+1. installation
+  The code can simply be copied from gitHub or the file can be downloaded and placed in the .minecraft/saves/[your world]/opencomputers/[ingame hard drive 
+  address] directory.
+
+2. translation
+  Just translate all variables, of a-group (e.g.: a1, a2, a3, ..., ...) or f-group (e.g.: f1, f2, ..., ...) into your language. 
+
+3. usage
+  You can use the code for private purposes, if you want to tell your friends how great the program is just share the web address from this Github page. 
+  Everything else needs my explicit permission. 
+
+  3.1 Get permission
+    Permission can be obtained via my Discord server. Just open an issue ticket and ask the question.
+
+Now have fun trying out the program and don't forget to save the earth ;)
