@@ -4,7 +4,7 @@
   address] directory.
   
   1.1 Installation via pastebin:
-    Type 'pastebin get q92zLMt8 Dial (English).lua' into the console from an OpenComputers computer with an internet card (English version only).
+    Type 'pastebin get q92zLMt8 Dial.lua' into the console from an OpenComputers computer with an internet card (English version only).
 
 2. Translation:
   Just translate all variables, of a-group (e.g.: a1, a2, a3, ..., ...) or f-group (e.g.: f1, f2, ..., ...) into your language. 
