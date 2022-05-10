@@ -15,7 +15,7 @@ v13 = 30
 v16 = "dev"
 
 a1 = "Incoming wormhole"
-a2 = "Chevron has been activated by DHD".
+a2 = "Chevron has been activated by DHD"
 a3 = "Gate is closed"
 a4 = "Computer will restart in "
 a5 = " seconds to reboot"
