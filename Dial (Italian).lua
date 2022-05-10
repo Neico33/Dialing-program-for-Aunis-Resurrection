@@ -15,7 +15,7 @@ v13 = 30
 v16 = "dev"
 
 a1 = "Wormhole in arrivo"
-a2 = "Chevron è stato attivato dal DHD".
+a2 = "Chevron è stato attivato dal DHD"
 a3 = "La porta è chiusa"
 a4 = "Il computer si riavvierà tra "
 a5 = "secondi al riavvio"
