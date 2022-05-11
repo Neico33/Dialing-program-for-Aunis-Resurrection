@@ -1,4 +1,4 @@
-# Dialing-program-for-Aunis-Resurrection
+# Dialing program for Aunis: Resurrection
 1. Installation:
   The code can simply be copied from gitHub or the file can be downloaded and placed in the .minecraft/saves/[your world]/opencomputers/[ingame hard drive disk
   address] directory.
