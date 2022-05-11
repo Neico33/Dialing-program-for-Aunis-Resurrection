@@ -7,7 +7,7 @@
     Type 'pastebin get q92zLMt8 Dial.lua' into the console from an OpenComputers computer with an internet card (English version only).
 
 2. Translation:
-  Just translate all variables, of a-group (e.g.: a1, a2, a3, ..., ...) or f-group (e.g.: f1, f2, ..., ...) into your language. 
+  Just translate all variables, of a-group (e.g.: a1, a2, a3, ..., ...) and f-group (e.g.: f1, f2, ..., ...) into your language. 
 
 3. Usage:
   You can use the code for private purposes, if you want to tell your friends how great the program is just share the web address from this Github page. 
