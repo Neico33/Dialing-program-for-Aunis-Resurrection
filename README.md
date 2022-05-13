@@ -16,4 +16,4 @@
   3.1 Get permission:
     Permission can be obtained via my Discord server. Just open an issue ticket and ask the question.
 
-Now have fun trying out the program and don't forget to save the earth ;)
+Have fun trying the program and don't forget to save the earth from the Goa'uld ;)
