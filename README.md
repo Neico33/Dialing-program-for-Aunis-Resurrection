@@ -1,7 +1,6 @@
 # Dialing program for Aunis: Resurrection
 1. Installation:
-  The code can simply be copied from gitHub or the file can be downloaded and placed in the .minecraft/saves/[your world]/opencomputers/[ingame hard drive disk
-  address] directory.
+  The code can simply be copied from gitHub. Open the file on GitHub and Copy the Code.
   
   1.1 Installation via pastebin:
     Type 'pastebin get q92zLMt8 Dial.lua' into the console from an OpenComputers computer with an internet card (English version only).
@@ -14,6 +13,9 @@
   Everything else needs my explicit permission. 
 
   3.1 Get permission:
-    Permission can be obtained via my Discord server. Just open an issue ticket and ask the question.
+    Permission can be obtained via my Discord server. Just open an issue ticket and ask.
+
+4. Questions:
+  Just open an issue ticket on my Discord Server and ask the question.
 
 Have fun trying the program and don't forget to save the earth from the Goa'uld ;)
