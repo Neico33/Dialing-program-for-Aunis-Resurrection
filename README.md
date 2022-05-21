@@ -13,9 +13,9 @@
   Everything else needs my explicit permission. 
 
   3.1 Get permission:
-    Permission can be obtained via my Discord server. Just open an issue ticket and ask.
+    Permission can be obtained via my Discord server (discord.gg/ha3dRRR). Just open an issue ticket and ask.
 
 4. Questions:
-  Just open an issue ticket on my Discord Server and ask the question.
+  Just open an issue ticket on my Discord Server (discord.gg/ha3dRRR) and ask the question.
 
 Have fun trying the program and don't forget to save the earth from the Goa'uld ;)
